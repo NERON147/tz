@@ -20,7 +20,7 @@ a:hover {
 }
 
   .container {
-    width: 1250px;
+    max-width: 1250px;
     margin: 0 auto;
   }
 
@@ -131,7 +131,7 @@ a:hover {
   }
 
 .about-container {
-    width: 825px;
+    max-width: 825px;
     margin: 0 auto;
     margin-top: 160px;
 }
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .light-container {
-    width: 825px;
+    max-width: 825px;
     margin: 0 auto;
 }
 
@@ -292,16 +292,9 @@ a:hover {
       }
 
 .main-wrapper {
-    justify-content: center;
+    justify-content: space-around;
   }
 
-.numb {
-        
-}
-
-      .logo {
-       
-      }
 }
 
 
