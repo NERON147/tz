@@ -154,6 +154,10 @@ a:hover {
     margin-top: 55px;
 }
 
+.company-wrapper {
+    overflow: hidden;
+}
+
 .company-text {
     text-align: center;
     margin-top: 50px;
