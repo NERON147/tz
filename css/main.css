@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     background-image: url("../img/bgr.png");
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
   
 a {
@@ -18,6 +19,8 @@ a:hover {
     transform: scale(1.1);
     color: #4e4d4d;
 }
+
+
 
   .container {
     max-width: 1250px;
@@ -183,8 +186,8 @@ a:hover {
 }
 .menu-icon-wrapper {
     
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     display: none;
     justify-content: center;
     align-items: center;
@@ -257,7 +260,7 @@ a:hover {
     .menu-icon-wrapper {
         display: flex;
         position: absolute;
-        margin-top: 45px;
+        margin-top: 33px;
     }
 
     .menu-icon{
